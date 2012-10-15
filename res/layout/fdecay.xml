@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"	
+    xmlns:tools="http://schemas.android.com/tools"
+		android:orientation="vertical"
+		android:id="@+id/frCard"
+		style="@style/nowCardStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/fdGraph"
+			android:paddingRight="15dp"
+			android:paddingTop="-30dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="175dp" />
+        <TextView
+            android:id="@+id/fdText"
+            style="@style/MediumText"
+            android:text="Frequency decay."
+            tools:context=".MainActivity" />
+		<TextView
+			android:id="@+id/fdAxes"
+			style="@style/TinyText"
+			android:text="x:frequency (Hz) vs y:time (s)"
+			android:gravity="right"/>
+        <TextView
+            android:id="@+id/fdSubtext"
+            style="@style/SmallText"
+            android:text="Reverberation times (RT60) for various frequency bins. Associated with clarity of sound."
+            tools:context=".MainActivity" />
+		</LinearLayout>

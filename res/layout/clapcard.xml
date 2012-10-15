@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"	
+    xmlns:tools="http://schemas.android.com/tools"
+		android:orientation="vertical"
+		android:id="@+id/clapCard"
+		style="@style/nowCardStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/clapGraph"
+			android:paddingRight="15dp"
+			android:paddingTop="-30dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="175dp" />
+        <TextView
+            android:id="@+id/clapText"
+            style="@style/MediumText"
+            android:text="Decay curve."
+            tools:context=".MainActivity" />	
+		<TextView
+			android:id="@+id/clapAxes"
+			style="@style/TinyText"
+			android:text="x:time (s) vs y:volume (dB)"
+			android:gravity="right"/>
+        <TextView
+            android:id="@+id/clapSubtext"
+            style="@style/SmallText"
+            android:text="Decay curve for each impulse, where 0 dB is the background level."
+            tools:context=".MainActivity" />
+		</LinearLayout>

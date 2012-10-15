@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">ClapIR</string>
+    <string name="hello_world">Hellow World!</string>
+    <string name="title_activity_main">Now Layout</string>
+	<string name="app_description">Acoustics made simple. Hit the mic, wait for a red icon, and clap! Cards will pop up with an analysis of the room\'s impulse response.</string>
+</resources>

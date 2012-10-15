@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"	
+    xmlns:tools="http://schemas.android.com/tools"
+		android:orientation="vertical"
+		android:id="@+id/csCard"
+		style="@style/nowCardStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/csGraph"
+			android:paddingRight="15dp"
+			android:paddingTop="-30dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="175dp" />
+        <TextView
+            android:id="@+id/csText"
+            style="@style/MediumText"
+            android:text="Clap spectra."
+            tools:context=".MainActivity" />	
+		<TextView
+			android:id="@+id/csAxes"
+			style="@style/TinyText"
+			android:text="x:frequency (Hz) vs y:volume (dB)"
+			android:gravity="right"/>
+        <TextView
+            android:id="@+id/csSubtext"
+            style="@style/SmallText"
+            android:text="Energy levels at different frequencies of the direct sound of the impulse. 0 dB is the background level."
+            tools:context=".MainActivity" />
+		</LinearLayout>

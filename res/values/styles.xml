@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
+
+    <style name="nowCardStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/search_bg_shadow</item>
+        <item name="android:gravity">left</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+	<style name="BigText" parent = "@android:style/TextAppearance.Large">
+		<item name="android:textSize">36sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">8dp</item>
+	</style>
+
+	<style name="MediumText" parent = "@android:style/TextAppearance.Large">
+		<item name="android:textSize">24sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">6dp</item>
+	</style>
+	<style name="TinyText" parent = "@android:style/TextAppearance.Large">
+		<item name="android:textSize">12sp</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">-4dp</item>
+		<item name="android:textColor">#FF888888</item>
+		<item name="android:paddingRight">6dp</item>
+	</style>
+	<style name="SmallText" parent = "@android:style/TextAppearance.Small">	
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">4dp</item>
+		<item name="android:textColor">?android:attr/textColorSecondary</item>
+	</style>
+
+	<style name="NoActionBar" parent="@android:style/Theme.Light">
+		
+		<item name="android:windowNoTitle">true</item>
+		</style>
+</resources>

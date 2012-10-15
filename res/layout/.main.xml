@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#e3e3e3"
+    android:fillViewport="true" >
+
+    <com.example.myfirstapp.NowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:id="@+id/mainLayout"
+        android:orientation="vertical"
+		>
+		<LinearLayout android:orientation="horizontal"
+		style="@style/nowCardStyle"
+		android:layout_width="match_parent"
+		android:layout_height="60dp">
+			<ImageButton
+			android:layout_width="40dp"
+			android:id="@+id/micButton"
+			android:layout_height="wrap_content"
+			android:src="@drawable/mic_icon"
+			android:onClick="startRecord"
+			android:layout_marginRight="5dp"
+			style="?android:attr/borderlessButtonStyle"
+			/>
+			<com.example.myfirstapp.MySurfaceView
+				android:id="@+id/waveform"
+				android:layout_width = "fill_parent"
+				android:layout_height = "fill_parent"
+				/>
+		</LinearLayout>
+
+		<LinearLayout android:orientation="vertical"
+		style="@style/nowCardStyle"
+		android:id="@+id/infoCard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+			<TextView
+			style="@style/BigText"
+			android:id="@+id/infoHeading"
+			android:text="ClapIR"
+			tools:context=".MainActivity"/>
+			<TextView
+			android:padding="4dp"
+			style="@style/SmallText"
+			android:id="@+id/infoDescription"
+			android:text="@string/app_description"
+			tools:context=".MainActivity"/>
+		</LinearLayout>
+    </com.example.myfirstapp.NowLayout>
+
+</ScrollView>

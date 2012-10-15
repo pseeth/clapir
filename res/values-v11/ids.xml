@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- id's which will be in R.id and you'll use later -->
+    <item type="id" name="clapGraphView" />
+	  <item type="id" name="frGraphView" />
+	    <item type="id" name="fdGraphView" />
+	    <item type="id" name="csGraphView" />
+		</resources>

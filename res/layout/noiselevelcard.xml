@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"	
+    xmlns:tools="http://schemas.android.com/tools"
+		android:orientation="vertical"
+		android:id="@+id/noiseCard"
+		style="@style/nowCardStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/noiseLevel"
+            style="@style/BigText"
+            android:text="blah blah"
+            tools:context=".MainActivity" />
+        <TextView
+            android:id="@+id/noiseDescription"
+            style="@style/SmallText"
+            android:text="Background noise level. The lower the better. 0 dB is the level this mic maxes out at."
+            tools:context=".MainActivity" />
+		</LinearLayout>
