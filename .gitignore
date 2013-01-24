@@ -16,6 +16,8 @@
 #vim swap files
 *.swp
 *.swo
+*.swm
+*.swn
 
 # generated files
 bin/
