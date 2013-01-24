@@ -1,3 +1,0 @@
-use AudioRecord to grab audio
-set up clap detection
-count claps, printing back results to screen
